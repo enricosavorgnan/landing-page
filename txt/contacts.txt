@@ -1,0 +1,24 @@
+Data e ora: 2024-12-12 09:58:04
+User: v2v9on4811lo1dhps3jal1lbbl
+Consenso mail: 
+Genitore: no
+Educatore: yes
+Email: ffff@dm.com
+Location: ,
+---------------------------------
+Data e ora: 2025-01-07 10:55:49
+User: v2v9on4811lo1dhps3jal1lbbl
+Consenso mail: 
+Genitore: no
+Educatore: 
+Email: enrico.savorgnan@studenti.units.it
+Location: ,
+---------------------------------
+Data e ora: 2025-01-07 10:56:21
+User: v2v9on4811lo1dhps3jal1lbbl
+Consenso mail: 
+Genitore: yes
+Educatore: 
+Email: caccaculo@gmail.com
+Location: ,
+---------------------------------
