@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>LiteAI</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="LiteAI is a new, personalized way to enhance your children's soft skills!">
+  <meta name="keywords"
+        content="LiteAI, LiteMind, children, education, soft skills, personalized learning">
+  <meta name="author" content="LiteAI Team">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon"
+        href="img/logo.png"
+        type="image/x-icon">
+
+  <script src="js/main.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0CQMSQR92L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0CQMSQR92L');
+  </script>
+
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5fbfeda1-7ddc-4fbf-89e2-9a11ccfd5c3d" data-blockingmode="auto" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+
+<!--    NAVBAR      -->
+<nav class="nav-container" role="navigation" aria-label="Main navigation">
+
+  <div class="nav-content">
+
+    <div class="logo-column">
+      <a href="en.html">
+        <img
+                loading="lazy"
+                src="img/logo.png"
+                class="brand-logo"
+                alt="LiteAI company logo"
+        />
+      </a>
+    </div>
+
+    <div class="nav-links-column">
+      <div class="nav-links-wrapper">
+        <a href="#about" class="nav-link" tabindex="0">Our products</a>
+        <a href="#contact" class="nav-link" tabindex="1">Contact us</a>
+
+        <img src="img/icon_language.svg" id="icon-language" alt="Language icon">
+        <div class="language-dropdown" id="language-dropdown">
+          <button class="language-option" data-lang="en" data-selected="true">English</button>
+          <button class="language-option" data-lang="it" >Italiano
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</nav>
+
+
+<!--    HERO        -->
+<main class="hero-container">
+
+  <div class="hero-content-wrapper">
+
+    <div class="image-column-hero">
+      <img
+              loading="lazy"
+              src="img/mockups.svg"
+              class="hero-image"
+              id="desktop-image"
+              alt="Young talent showcase illustration"
+      />
+    </div>
+
+    <div class="content-column">
+
+      <div class="content-wrapper">
+
+        <h2 class="heading-secondary">
+          We want our little talents to <span class="text-highlight">shine</span>
+        </h2>
+        <img
+                loading="lazy"
+                src="img/mockups.svg"
+                class="mobile-hero-image"
+                id="mobile-image"
+                alt="Young talent showcase illustration for mobile view"
+        />
+        <p class="hero-description">
+          And we help them by providing a <span class="text-highlight">stimulating</span> and <span class="text-highlight">personalized</span> educational environment, where they can learn and grow in <span class="text-highlight">autonomy</span>.
+        </p>
+
+        <!-- Pulsante per inviare i dati -->
+        <a href="#about" id="ctaButton" class="cta-button" data-el="button-1" tabindex="0"
+           aria-label="Get more information about our program">
+          Discover more
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<!--    PRESENTATION    -->
+<section class="presentation-container">
+  <h2 class="presentation-title">Who we are</h2>
+  <p class="presentation-subtitle">
+    We develop applications for <span style="font-weight: 700">girls and boys</span> aged 6 to 12, specifically for learning <span style="font-weight: 750">soft skills</span>. <br>
+    We leverage artificial intelligence to obtain <span style="font-weight: 700">personalized</span> and <span style="font-weight: 700">inclusive</span> tools.
+  </p>
+
+  <div class="presentation-grid">
+    <div class="presentation-card" id="mission">
+      <img src="img/mission.svg" alt="Mission icon" class="presentation-image">
+      <div class="presentation-content">
+        <h3 class="mission-vision-title">Mission</h3>
+        <p class="presentation-text">
+          We want to improve the future of children by promoting the development of soft skills.
+        </p>
+      </div>
+    </div>
+    <div class="presentation-card" id="vision">
+      <img src="img/vision.svg" alt="Vision icon" class="presentation-image">
+      <div class="presentation-content">
+        <h3 class="mission-vision-title">Vision</h3>
+        <p class="presentation-text">
+            We aim to become leaders in innovative education, combining pedagogy and technology.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--    VALIDATION  -->
+<section class="stats-container" role="region" aria-label="Statistics Section">
+  <h2 class="stats-title">Why LiteAI</h2>
+
+  <div class="stats-grid">
+    <div class="stats-row">
+      <article class="stat-card">
+        <img
+                loading="lazy"
+                src="img/chart_1.svg"
+                class="stat-image"
+                alt="Statistical visualization 1"
+        />
+        <p class="stat-text">
+          Is the percentage of <span style="font-weight: 700">parents and educators</span>, among the over 200 we interviewed, in favor of <span style="font-weight: bold">personalized educational activities</span>. Personalized activities are considered more stimulating and effective, significantly improving learning.
+        </p>
+      </article>
+
+      <article class="stat-card">
+        <img
+                loading="lazy"
+                src="img/chart_2.svg"
+                class="stat-image"
+                alt="Statistical visualization 2"
+        />
+        <p class="stat-text">
+          is the weight of <span style="font-weight: 700">developing</span> transversal skills in <span style="font-weight: 700">success</span> in school and work, as evidenced by the LinkedIn Global Talents Report 2023 and the Hammill Institute of Disabilities in Austin, Texas.
+        </p>
+      </article>
+
+      <article class="stat-card">
+        <img
+                loading="lazy"
+                src="img/chart_3.svg"
+                class="stat-image"
+                alt="Statistical visualization 3"
+        />
+        <p class="stat-text">
+          Is the percentage of <span style="font-weight: 700">children with DSA</span> who show <span style="font-weight: 700">insecurity and emotional disorders</span> in school, according to a study by the Hammill Institute of Disabilities in Austin, Texas.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--    FEATURES    -->
+<section class="feature-container" id="about">
+  <h2 class="feature-title">What we offer</h2>
+
+  <article class="feature-card">
+    <div class="feature-content">
+      <div class="feature-text-wrapper">
+        <h2 class="feature-card-title">
+          A unique way to <span class="text-highlight">learn</span> & <span class="text-highlight">grow</span>
+        </h2>
+        <p class="feature-description">
+          We know that <span style="font-weight: 700">playing</span> is the most natural way to <span>learn</span>. <br>
+            Our mobile app offers <span style="font-weight: 700">fun and educational activities</span> at the same time: an adventure through mazes, treasure hunts, and sprints on the track! <br>
+        </p>
+      </div>
+      <div class="feature-image-wrapper">
+        <img src="img/feature_1.svg" alt="Educational activities illustration"
+             class="feature-image">
+      </div>
+    </div>
+  </article>
+
+  <article class="feature-card">
+    <div class="feature-content" id="feature-2">
+      <div class="feature-text-wrapper">
+        <h2 class="feature-card-title">
+            By the side of <span class="text-highlight">parents</span> & <span
+                    class="text-highlight">educators</span>
+        </h2>
+        <p class="feature-description">
+            Parents and educators are the <span style="font-weight: 700">first point of reference</span> for children. <br>
+            LiteAI wants to support these key figures in the delicate task of <span style="font-weight: 700">training children</span>. <br>
+            For this reason, we have designed a specific <span style="font-weight: 700">section for adults</span>, with periodic reports and <span style="font-weight: 700">feedback</span> on the child's progress. <br>
+            We have also developed activities to promote <span style="font-weight: 700">complicity</span> and <span style="font-weight: 700">interaction</span> between adults and children.
+        </p>
+      </div>
+      <div class="feature-image-wrapper">
+        <img src="img/parent.svg" alt="Educators and pedagogists working together"
+             class="feature-image">
+      </div>
+    </div>
+  </article>
+
+  <article class="feature-card">
+    <div class="feature-content">
+      <div class="feature-text-wrapper">
+        <h2 class="feature-card-title">
+          <span class="text-highlight">Personalization</span> & <span
+                class="text-highlight">inclusivity</span>
+        </h2>
+        <p class="feature-description">
+            Every child learns in a <span style="font-weight: 700">unique and special</span> way. <br>
+            Our platform is designed to highlight the <span style="font-weight: 700">strengths</span> and <span style="font-weight: 700">fill the gaps</span>, through state-of-the-art, secure, and reliable artificial intelligence models that choose the <span style="font-weight: 700">best activities</span> at the right time, taking into account the <span style="font-weight: 700">specificities</span> and <span style="font-weight: 700">progress</span> of each child.
+        </p>
+      </div>
+      <div class="feature-image-wrapper">
+        <img src="img/personalizzazione1.svg" alt="Personalized learning illustration"
+             class="feature-image">
+      </div>
+    </div>
+  </article>
+</section>
+
+
+<!--SECTION -->
+<section class="reference-container" role="region" aria-label="References Section">
+  <h2 class="reference-title">What they say about us</h2>
+
+  <div class="reference-slider">
+    <div class="reference-grid">
+      <!-- Original Content -->
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/omar_s.jpeg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Omar S.</h2>
+          <h3 class="reference-author-subtitle">Primary School Teacher</h3>
+          <p class="reference-text">
+            "The field of AI applied to education is particularly helpful in providing personalized support for learning, especially among students with special educational needs, which is exactly what LiteAI focuses on."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/angelo_b.jpeg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Angelo B.</h2>
+          <h3 class="reference-author-subtitle">Business Developer</h3>
+          <p class="reference-text">
+            "Despite my young age, I realize that soft skills are having a profound impact on me, starting with the ability to question myself. Investing in these skills early enriches both ourselves and others."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/annalisa_t.png"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Annalisa T.</h2>
+          <h3 class="reference-author-subtitle">Psychologist & Coach</h3>
+          <p class="reference-text">
+            "The LiteAI team is pursuing a goal that precisely addresses the needs of children and teenagers: transversal skills can be learned but not taught."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/raffaella_b.jpg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Raffaella B.</h2>
+          <h3 class="reference-author-subtitle">Pharmacist & Mom</h3>
+          <p class="reference-text">
+            "Thanks to my personal experience, I can confidently say that personalized teaching methods are essential for the cultural and human growth of all children, as each of them is unique and unrepeatable."
+          </p>
+        </div>
+      </article>
+    </div>
+    <!-- Duplicate Content -->
+    <div class="reference-grid" style="margin-left: 85px">
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/omar_s.jpeg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Omar S.</h2>
+          <h3 class="reference-author-subtitle">Primary School Teacher</h3>
+          <p class="reference-text">
+            "The field of AI applied to education is particularly helpful in providing personalized support for learning, especially among students with special educational needs, which is exactly what LiteAI focuses on."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/angelo_b.jpeg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Angelo B.</h2>
+          <h3 class="reference-author-subtitle">Business Developer</h3>
+          <p class="reference-text">
+            "Despite my young age, I realize that soft skills are having a profound impact on me, starting with the ability to question myself. Investing in these skills early enriches both ourselves and others."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/annalisa_t.png"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Annalisa T.</h2>
+          <h3 class="reference-author-subtitle">Psychologist & Coach</h3>
+          <p class="reference-text">
+            "The LiteAI team is pursuing a goal that precisely addresses the needs of children and teenagers: transversal skills can be learned but not taught."
+          </p>
+        </div>
+      </article>
+
+      <article class="reference-card">
+        <img
+                loading="lazy"
+                src="img/references/raffaella_b.jpg"
+                class="reference-image"
+                alt="Quotation mark"
+        />
+        <div class="reference-content">
+          <h2 class="reference-author">Raffaella B.</h2>
+          <h3 class="reference-author-subtitle">Pharmacist & Mom</h3>
+          <p class="reference-text">
+            "Thanks to my personal experience, I can confidently say that personalized teaching methods are essential for the cultural and human growth of all children, as each of them is unique and unrepeatable."
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--    FORM        -->
+<div class="survey-container" role="main" id="contact">
+
+  <header class="survey-header">
+    <h1 class="header-text">
+      We are working to make LiteAI even more <span class="text-highlight">brilliant</span>.
+    </h1>
+
+    <h3 class="survey-description">
+        Do you want to stay updated? <br>
+        Subscribe to our newsletter!
+    </h3>
+  </header>
+
+
+  <div class="form-container">
+    <!--         send file to php/prova_db-->
+    <form class="survey-form" id="survey-form" method="post">
+      <div class="form-group">
+        <fieldset>
+          <legend class="form-label" id="email-label">Email address *</legend>
+          <input type="email" id="email" name="email" class="email-input" aria-label="Indirizzo mail facoltativo">
+        </fieldset>
+
+        <fieldset>
+          <legend class="form-label">Do you have children?</legend>
+          <input type="radio" class="parent" id="parent-yes" name="is_parent" value="yes">
+          <label for="parent-yes" class="radio-label">Yes</label>
+          <input type="radio" id="parent-no" name="is_parent" value="no" class="radio-spacing parent">
+          <label for="parent-no" class="radio-label">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend class="form-label">Do you work in the educational field?</legend>
+          <input type="radio" class="educator" id="educator-yes" name="is_educator" value="yes">
+          <label for="educator-yes" class="radio-label">Yes</label>
+          <input type="radio" id="educator-no" name="is_educator" value="no" class="radio-spacing educator">
+          <label for="educator-no" class="radio-label">No</label>
+        </fieldset>
+
+        <p style="padding-left: 15px">
+          For more information, read our <a href="en-privacy-policy.html">Privacy Policy</a>.
+        </p>
+      </div>
+
+      <!-- Bottone che invia i dati tramite AJAX -->
+      <button type="submit" class="submit-button" id="submitBtn" aria-label="Submit your answers to the survey">
+        Send
+      </button>
+
+      <div id="message" style="display:none; color: green; font-weight: bold; padding-left: 18px"> Form received. Thanks! </div>
+    </form>
+  </div>
+
+</div>
+
+
+
+
+<!--    TEAM        -->
+<section class="team-container" role="region" aria-label="Team Section">
+  <h2 class="team-title">The team</h2>
+
+  <div class="team-grid">
+    <div class="team-text-background" id="box-1">
+      <div class="team-text" >
+        <p class="team-text-content">
+          We are Luca, Ivan, Enrico, and Tommaso, 4 young students at the University of Trieste passionate about Artificial Intelligence. Thanks to this interest, we have understood the <span>strong beneficial impact</span> that technology can have in the educational field.
+        </p>
+        <img
+                src="img/icon/school.svg"
+                alt="Team members"
+                class="team-text-image"
+        />
+      </div>
+    </div>
+
+    <div class="team-text-background" id="box-2">
+      <div class="team-text" id="team-2">
+        <img
+                src="img/icon/muscle.svg"
+                alt="Team members"
+                class="team-text-image"
+                id="image-reversed"
+        />
+        <p class="team-text-content" id="team-text-2">
+            As you can see from the data above, the current world requires an ever-increasing focus on <span>personalization</span> and <span style="font-weight: bold">transversal skills</span>, which are becoming more and more fundamental every day.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="team-text-background" id="box-3">
+      <div class="team-text">
+        <p class="team-text-content" id="team-3">
+          Thinking about us as children, we would have liked the adults around us to have raised us in this direction, <span style="font-weight: bold">preparing us for the challenges</span> that the future, inevitably, poses. This is where LiteAI was born.
+        </p>
+        <img
+                src="img/icon/idea.svg"
+                alt="Team members"
+                class="team-text-image"
+        />
+      </div>
+    </div>
+
+    <div class="team-images">
+      <div class="team-member" id="team-member-1">
+        <img src="img/team/luca.jpg" alt="Team member 1" class="team-member-image">
+        <h3 class="team-member-name">Luca Baratto</h3>
+        <p class="team-member-role">Co-Founder & CFO <br>
+
+        </p>
+      </div>
+      <div class="team-member" id="team-member-2">
+        <img src="img/team/ivan.jpg" alt="Team member 1" class="team-member-image">
+        <h3 class="team-member-name">Ivan Buttignon</h3>
+        <p class="team-member-role">Co-Founder & COO</p>
+      </div>
+      <div class="team-member" id="team-member-3">
+        <img src="img/team/tommaso_moro.jpeg" alt="Team member 1" class="team-member-image">
+        <h3 class="team-member-name">Tommaso Moro</h3>
+        <p class="team-member-role">Co-Founder & CEO</p>
+      </div>
+      <div class="team-member" id="team-member-4">
+        <img src="img/team/enrico.jpg" alt="Team member 1" class="team-member-image">
+        <h3 class="team-member-name">Enrico Savorgnan </h3>
+        <p class="team-member-role">Co-Founder & CMO</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--    FOOTER      -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-container">
+
+    <div class="footer-column" id="footer-column-1">
+      <div class="footer-image-container">
+        <img
+                loading="lazy"
+                src="img/logo.png"
+                class="footer-logo"
+                alt="Social media presence illustration"
+        />
+      </div>
+    </div>
+
+
+    <div class="footer-column" id="footer-column-2">
+      <h3 class="footer-title">Contact us</h3>
+      <div class="footer-text-div">
+        <img
+                src="img/mail.svg"
+                class="social-icon"
+                alt="Gmail logo"
+        />
+        <p class="footer-text"> Send us an
+          <a href="mailto:theliteai@gmail.com">email</a>
+        </p>
+      </div>
+      <div class="footer-text-div">
+        <img
+                src="img/linkedin.svg"
+                class="social-icon"
+                alt="LinkedIn logo"
+        />
+        <p class="footer-text">Follow us on
+          <a href="https://www.linkedin.com/company/liteai" class="social-link">LinkedIn</a>
+        </p>
+      </div>
+
+      <h3 class="footer-title" style="margin-top: 20px">Where we are</h3>
+      <p class="footer-text" id="footer-text-place"> Via Manara 15, Milan, Italy</p>
+
+    </div>
+
+
+    <div class="footer-column" id="footer-column-3">
+      <h3 class="footer-title">The project</h3>
+      <p class="footer-text" style="font-weight: bold">LiteAI is a project from 12Venture</p>
+      <img
+              loading="lazy"
+              src="img/12v_logo.png"
+              class="social-image"
+              id="12v-logo"
+              alt="12venture logo"
+      />
+      <p>
+        12 Venture Srl Società Benefit <br>
+        P. Iva: 13162080967 <br>
+        <a href="mailto:info@12venture.com" id="a-12v-mail">info@12venture.com</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+<div class="privacy-container">
+  <p class="privacy-tag"><a href="en-privacy-policy.html" class="a">Privacy Policy</a></p>
+</div>
+
+
+</body>
+</html>
