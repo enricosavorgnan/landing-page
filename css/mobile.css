@@ -1,0 +1,316 @@
+@media (max-width: 640px) {
+    .brand-logo {
+        border-radius: 15px;
+        min-height: 30px;
+        margin: 0 auto;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    #icon-language {
+        display: flex;
+        position: fixed;
+        top: 10px;
+        right: 15px;
+    }
+
+
+    /* HERO */
+    .hero-container {
+        padding-top: 40px;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .heading-primary {
+        font-size: 55px;
+        width: 100%;
+        margin-bottom: -5px;
+        text-align: center;
+    }
+
+    .heading-secondary {
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .mobile-hero-image {
+        display: flex;
+        object-fit: contain;
+    }
+
+    .hero-description {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .cta-button {
+        border-radius: 15px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .presentation-card {
+        width: 350px;
+    }
+
+    .feature-title {
+        line-height: 1.5;
+    }
+
+    .feature-description {
+        font-size: 15px;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+
+    /* STATS */
+    .stat-card {
+        width: 90%;
+        margin: 10px auto 0;
+        padding: 0;
+    }
+
+    .stat-image {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .stat-card-title {
+        margin: 0 auto;
+    }
+
+    .stat-text{
+        font-size: 20px;
+    }
+
+    /* HABITS */
+    .goals-box-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .goals-box-horizontal-line {
+        flex-direction: column;
+    }
+
+    .goals-card {
+        flex-direction: row;
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+
+    /* HABITS */
+    .habits-box-title {
+        font-size: 35px;
+    }
+
+    .habits-box-subtitle {
+        font-size: 20px;
+    }
+
+    .habits-card {
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto 10px;
+    }
+
+    .habits-card-data {
+        text-align: center;
+    }
+
+    .habits-card-title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    /* FEATURE */
+    .feature-card {
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .feature-text-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .feature-card-title {
+        font-size: 32px;
+    }
+
+    .feature-description {
+        font-size: 20px;
+    }
+
+
+    .stats-title {
+        text-align: center;
+    }
+
+    .reference-slider:before,
+    .reference-slider:after {
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+    }
+
+
+    .reference-grid {
+        animation: infinite-scroll 100s linear infinite;
+    }
+
+    .reference-card {
+        width: 300px;
+        overflow: hidden;
+
+    }
+
+    .reference-author {
+        font-size: 18px;
+    }
+
+    .reference-author-subtitle {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .reference-text {
+        font-size: 14px;
+    }
+
+    .reference-content {
+        padding: 10px;
+    }
+
+
+
+    /* FORM */
+    .header-text {
+        font-size: 30px;
+        margin: 20px auto 0;
+        width: 100%
+    }
+
+    .survey-description {
+        width: 100%;
+        padding: 20px 0;
+        margin-bottom: 0;
+    }
+
+    .form-container {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .email-input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .submit-button {
+        width: 95%;
+        margin: 20px auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+    /* TEAM */
+    .team-text-background {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .team-text {
+        width: 100%;
+        padding: 20px 0 40px 0;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .team-text-image {
+        width: 90px;
+    }
+
+    .team-images {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .team-grid {
+        width: 90%;
+    }
+
+    .team-text-content {
+        width: 80%;
+        margin: 20px auto 0;
+    }
+
+    #footer-column-1 {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #footer-column-2 {
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+
+    #footer-column-3 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .image-column-footer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .footer-image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #a-12v-mail {
+        color: #050525;
+    }
+
+
+}

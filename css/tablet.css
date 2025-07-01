@@ -1,0 +1,399 @@
+@media (max-width: 1080px) {
+
+
+
+
+    /* NAVBAR */
+    .nav-container {
+        background: transparent;
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .logo-column,
+    .nav-links-column,
+    .contact-column {
+        width: 100%;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .brand-logo {
+        width: 120px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #icon-language {
+        display: flex;
+        position: fixed;
+        top: 10px;
+        right: 15px;
+    }
+
+
+
+
+    /* HERO SECTION */
+
+    .hero-content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        width: 100%;
+        padding: 40px;
+        font-size: 50px;
+    }
+
+    .image-column-hero {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 90%;
+    }
+
+    .content-column {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-wrapper{
+        width: 95%;
+    }
+
+    .mobile-hero-image {
+        display: none;
+    }
+
+    .heading-primary {
+        font-size: 70px;
+    }
+
+    .heading-secondary {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .hero-description {
+        font-size: 35px;
+    }
+
+
+    /* PRESENTATION */
+
+    .presentation-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .feature-card-title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .feature-content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #feature-2 {
+        flex-direction: column-reverse;
+    }
+
+    .feature-text-wrapper,
+    .feature-image-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .feature-image {
+        width: 100%;
+    }
+
+    .feature-title {
+        width: 80%;
+        padding-top: 20px;
+        padding-left: 0;
+        margin: auto;
+        font-size: 50px;
+    }
+
+    .feature-description {
+        width: 80%;
+        margin: auto;
+        font-size: 18px;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+
+
+    /* STATS */
+
+    .stats-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin: 0 50px;
+    }
+
+    .stat-card-title {
+        font-size: 70px;
+    }
+
+    .stat-card {
+        max-width: none;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .stat-image {
+        width: 38.4%;
+    }
+
+    .stat-text {
+        width: 80%;
+
+        margin: auto;
+        padding: 20px 0 50px 0;
+        font-size: 24px;
+    }
+
+
+
+    /* HABITS */
+    .habits-title {
+        position: relative;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .habits-subtitle {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .habits-box {
+        flex-direction: column;
+    }
+
+    .habits-box-text {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 0 50px 0;
+        font-size: 24px;
+    }
+
+    .habits-box-title {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0 10px 0;
+    }
+
+    .habits-box-subtitle {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0 20px 0;
+    }
+
+    .habits-box-content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 20px 50px 20px;
+        font-size: 18px;
+    }
+
+
+    /* FEATURES */
+    .feature-image {
+        margin: 0 auto;
+        width: 70%;
+        /* Vertical alignment */
+        display: block;
+    }
+
+
+    /* TEAM */
+    .team-text-background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-text {
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 20px 40px 20px;
+    }
+
+    .team-text-image {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
+
+    .team-text-content {
+        font-size: 18px;
+        padding: 0;
+        width: 100%;
+        margin: 10px auto 0;
+    }
+
+    .team-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+
+    /* FOOTER */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer-image-container {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer-logo {
+        align-self: center;
+        height: 80px;
+        object-fit: contain;
+        transform: translateX(-50%);
+        margin-left: 50%;
+    }
+
+    .footer-text-div {
+        width: 100%;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    .footer-text {
+    }
+
+    #footer-column-1 {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #footer-column-2 {
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+
+    #footer-column-3 {
+        width: 40%;
+        margin: 20px auto 0;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-text {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .social-image {
+        width: 60%;
+        height: auto;
+        transform: translateX(-50%);
+        margin-left: 50%
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+
+    .social-content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .image-column-hero {
+        width: 100%;
+        margin: auto;
+    }
+
+    .image-column,
+    .text-column {
+        width: 50%;
+    }
+
+    .header-text {
+        font-size: 25px;
+    }
+
+    .survey-description {
+        font-size: 20px;
+    }
+
+    .form-container {
+        /* center item*/
+        max-width: 95%;
+        padding: 0;
+        margin: auto;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .survey-form {
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+    .social-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-column-footer {
+        width: 40%;
+        margin: auto;
+    }
+
+
+    .reference-grid {
+        animation: infinite-scroll 75s linear infinite;
+    }
+}
